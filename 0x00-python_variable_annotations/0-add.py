@@ -1,4 +1,13 @@
 #!/usr/bin/python3
+"""
+0-add.py
+
+This module provides addition operation.
+
+Functions:
+- add(a: float, b: float) -> float: Add two floats and return the result.
+"""
+
 
 def add(a: float, b: float) -> float:
     '''
