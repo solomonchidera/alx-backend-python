@@ -5,8 +5,8 @@ Module Docs
 import math
 
 
-def floor(n: float) -> float:
+def floor(n: float) -> int:
     """
     Function Docs
     """
-    return math.floor(n)
+    return math.floor(int(n))
