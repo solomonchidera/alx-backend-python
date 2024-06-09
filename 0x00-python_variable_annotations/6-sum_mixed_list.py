@@ -3,8 +3,8 @@
 """
 Module Docs
 """
-from typing import List
-def sum_mixed_list(mxd_lst: List[float, int]) -> float:
+from typing import List, Union
+def sum_mixed_list(mxd_lst: List[Union[float, int]]) -> float:
     """
     Function Docs
     """
