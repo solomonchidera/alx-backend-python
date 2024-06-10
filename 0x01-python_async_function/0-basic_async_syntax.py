@@ -1,18 +1,11 @@
 #!/usr/bin/env python3
-import asyncio
+""" defines an asynchronous coroutine"""
 import random
-
-"""
-Module Docs
-0-basic_async_syntax
-"""
+import asyncio
 
 
 async def wait_random(max_delay: int = 10) -> float:
-    """
-    Function Docs
-    Generate a random delay time
-    """
-    delay: float = random.uniform(0, max_delay)
-    await asyncio.sleep(delay)
-    return delay: float
+    """returns a random wait time"""
+    i = random.uniform(0, max_delay)
+    await asyncio.sleep(i)
+    return i
