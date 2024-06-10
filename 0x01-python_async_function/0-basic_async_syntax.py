@@ -7,7 +7,7 @@ Module Docs
 """
 
 
-asyn def wait_random(max_delay: int = 10) -> float:
+async def wait_random(max_delay: int = 10) -> float:
     """
     Function Docs
     """
